@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		ED293ABD2DAFBBB800984551 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293ABA2DAFBBB800984551 /* ContentView.swift */; };
+		ED293ABE2DAFBBB800984551 /* SwiftUIModifiersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293ABB2DAFBBB800984551 /* SwiftUIModifiersApp.swift */; };
+		ED293ABF2DAFBBB800984551 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED293AB72DAFBBB800984551 /* Preview Assets.xcassets */; };
+		ED293AC02DAFBBB800984551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED293AB92DAFBBB800984551 /* Assets.xcassets */; };
+		ED293AC32DAFBBBE00984551 /* SwiftUIModifiersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293AC12DAFBBBE00984551 /* SwiftUIModifiersTests.swift */; };
+		ED293AC72DAFBBC100984551 /* SwiftUIModifiersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293AC42DAFBBC100984551 /* SwiftUIModifiersUITests.swift */; };
+		ED293AC82DAFBBC100984551 /* SwiftUIModifiersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293AC52DAFBBC100984551 /* SwiftUIModifiersUITestsLaunchTests.swift */; };
+		ED293AD22DAFBF0800984551 /* PaddingModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293AD12DAFBF0800984551 /* PaddingModifier.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		ED293A9B2DAFB99200984551 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +38,15 @@
 		ED293A8A2DAFB98F00984551 /* SwiftUIModifiers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIModifiers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED293A9A2DAFB99200984551 /* SwiftUIModifiersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIModifiersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED293AA42DAFB99200984551 /* SwiftUIModifiersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIModifiersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED293AB72DAFBBB800984551 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED293AB92DAFBBB800984551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED293ABA2DAFBBB800984551 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED293ABB2DAFBBB800984551 /* SwiftUIModifiersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIModifiersApp.swift; sourceTree = "<group>"; };
+		ED293AC12DAFBBBE00984551 /* SwiftUIModifiersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIModifiersTests.swift; sourceTree = "<group>"; };
+		ED293AC42DAFBBC100984551 /* SwiftUIModifiersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIModifiersUITests.swift; sourceTree = "<group>"; };
+		ED293AC52DAFBBC100984551 /* SwiftUIModifiersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIModifiersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED293AD12DAFBF0800984551 /* PaddingModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		ED293A8C2DAFB98F00984551 /* SwiftUIModifiers */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUIModifiers;
-			sourceTree = "<group>";
-		};
-		ED293A9D2DAFB99200984551 /* SwiftUIModifiersTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUIModifiersTests;
-			sourceTree = "<group>";
-		};
-		ED293AA72DAFB99200984551 /* SwiftUIModifiersUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUIModifiersUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ED293A872DAFB98F00984551 /* Frameworks */ = {
@@ -75,9 +76,9 @@
 		ED293A812DAFB98F00984551 = {
 			isa = PBXGroup;
 			children = (
-				ED293A8C2DAFB98F00984551 /* SwiftUIModifiers */,
-				ED293A9D2DAFB99200984551 /* SwiftUIModifiersTests */,
-				ED293AA72DAFB99200984551 /* SwiftUIModifiersUITests */,
+				ED293ABC2DAFBBB800984551 /* SwiftUIModifiers */,
+				ED293AC22DAFBBBE00984551 /* SwiftUIModifiersTests */,
+				ED293AC62DAFBBC100984551 /* SwiftUIModifiersUITests */,
 				ED293A8B2DAFB98F00984551 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +91,107 @@
 				ED293AA42DAFB99200984551 /* SwiftUIModifiersUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		ED293AB82DAFBBB800984551 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED293AB72DAFBBB800984551 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED293ABC2DAFBBB800984551 /* SwiftUIModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				ED293AD02DAFBC3800984551 /* OverlaysAndBackgrounds */,
+				ED293ACF2DAFBC3000984551 /* Alignment */,
+				ED293ACE2DAFBC0D00984551 /* Effects */,
+				ED293ACD2DAFBC0400984551 /* Visuals */,
+				ED293ACC2DAFBBFC00984551 /* Animation */,
+				ED293ACB2DAFBBF200984551 /* TextAndFont */,
+				ED293ACA2DAFBBE800984551 /* Scrolling */,
+				ED293AC92DAFBBE100984551 /* Layout */,
+				ED293AB82DAFBBB800984551 /* Preview Content */,
+				ED293AB92DAFBBB800984551 /* Assets.xcassets */,
+				ED293ABA2DAFBBB800984551 /* ContentView.swift */,
+				ED293ABB2DAFBBB800984551 /* SwiftUIModifiersApp.swift */,
+			);
+			path = SwiftUIModifiers;
+			sourceTree = "<group>";
+		};
+		ED293AC22DAFBBBE00984551 /* SwiftUIModifiersTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED293AC12DAFBBBE00984551 /* SwiftUIModifiersTests.swift */,
+			);
+			path = SwiftUIModifiersTests;
+			sourceTree = "<group>";
+		};
+		ED293AC62DAFBBC100984551 /* SwiftUIModifiersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED293AC42DAFBBC100984551 /* SwiftUIModifiersUITests.swift */,
+				ED293AC52DAFBBC100984551 /* SwiftUIModifiersUITestsLaunchTests.swift */,
+			);
+			path = SwiftUIModifiersUITests;
+			sourceTree = "<group>";
+		};
+		ED293AC92DAFBBE100984551 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				ED293AD12DAFBF0800984551 /* PaddingModifier.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		ED293ACA2DAFBBE800984551 /* Scrolling */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scrolling;
+			sourceTree = "<group>";
+		};
+		ED293ACB2DAFBBF200984551 /* TextAndFont */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextAndFont;
+			sourceTree = "<group>";
+		};
+		ED293ACC2DAFBBFC00984551 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		ED293ACD2DAFBC0400984551 /* Visuals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Visuals;
+			sourceTree = "<group>";
+		};
+		ED293ACE2DAFBC0D00984551 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Effects;
+			sourceTree = "<group>";
+		};
+		ED293ACF2DAFBC3000984551 /* Alignment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Alignment;
+			sourceTree = "<group>";
+		};
+		ED293AD02DAFBC3800984551 /* OverlaysAndBackgrounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OverlaysAndBackgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +208,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				ED293A8C2DAFB98F00984551 /* SwiftUIModifiers */,
 			);
 			name = SwiftUIModifiers;
 			packageProductDependencies = (
@@ -130,9 +229,6 @@
 			dependencies = (
 				ED293A9C2DAFB99200984551 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				ED293A9D2DAFB99200984551 /* SwiftUIModifiersTests */,
-			);
 			name = SwiftUIModifiersTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +248,6 @@
 			);
 			dependencies = (
 				ED293AA62DAFB99200984551 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				ED293AA72DAFB99200984551 /* SwiftUIModifiersUITests */,
 			);
 			name = SwiftUIModifiersUITests;
 			packageProductDependencies = (
@@ -212,6 +305,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED293ABF2DAFBBB800984551 /* Preview Assets.xcassets in Resources */,
+				ED293AC02DAFBBB800984551 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +331,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED293ABD2DAFBBB800984551 /* ContentView.swift in Sources */,
+				ED293AD22DAFBF0800984551 /* PaddingModifier.swift in Sources */,
+				ED293ABE2DAFBBB800984551 /* SwiftUIModifiersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED293AC32DAFBBBE00984551 /* SwiftUIModifiersTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +349,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED293AC72DAFBBC100984551 /* SwiftUIModifiersUITests.swift in Sources */,
+				ED293AC82DAFBBC100984551 /* SwiftUIModifiersUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
