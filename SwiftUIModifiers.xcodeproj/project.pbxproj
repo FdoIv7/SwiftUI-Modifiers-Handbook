@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED1696AB2DCA24C600E4B554 /* FrameModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1696AA2DCA24C600E4B554 /* FrameModifier.swift */; };
 		ED293ABD2DAFBBB800984551 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293ABA2DAFBBB800984551 /* ContentView.swift */; };
 		ED293ABE2DAFBBB800984551 /* SwiftUIModifiersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293ABB2DAFBBB800984551 /* SwiftUIModifiersApp.swift */; };
 		ED293ABF2DAFBBB800984551 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED293AB72DAFBBB800984551 /* Preview Assets.xcassets */; };
@@ -15,6 +16,7 @@
 		ED293AC72DAFBBC100984551 /* SwiftUIModifiersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293AC42DAFBBC100984551 /* SwiftUIModifiersUITests.swift */; };
 		ED293AC82DAFBBC100984551 /* SwiftUIModifiersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293AC52DAFBBC100984551 /* SwiftUIModifiersUITestsLaunchTests.swift */; };
 		ED293AD22DAFBF0800984551 /* PaddingModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED293AD12DAFBF0800984551 /* PaddingModifier.swift */; };
+		ED62DC7A2DCB958D001A29E7 /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED62DC792DCB958D001A29E7 /* OffsetModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED1696AA2DCA24C600E4B554 /* FrameModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameModifier.swift; sourceTree = "<group>"; };
 		ED293A8A2DAFB98F00984551 /* SwiftUIModifiers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIModifiers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED293A9A2DAFB99200984551 /* SwiftUIModifiersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIModifiersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED293AA42DAFB99200984551 /* SwiftUIModifiersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIModifiersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +49,7 @@
 		ED293AC42DAFBBC100984551 /* SwiftUIModifiersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIModifiersUITests.swift; sourceTree = "<group>"; };
 		ED293AC52DAFBBC100984551 /* SwiftUIModifiersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIModifiersUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ED293AD12DAFBF0800984551 /* PaddingModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingModifier.swift; sourceTree = "<group>"; };
+		ED62DC792DCB958D001A29E7 /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 			isa = PBXGroup;
 			children = (
 				ED293AD12DAFBF0800984551 /* PaddingModifier.swift */,
+				ED1696AA2DCA24C600E4B554 /* FrameModifier.swift */,
+				ED62DC792DCB958D001A29E7 /* OffsetModifier.swift */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -331,7 +337,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1696AB2DCA24C600E4B554 /* FrameModifier.swift in Sources */,
 				ED293ABD2DAFBBB800984551 /* ContentView.swift in Sources */,
+				ED62DC7A2DCB958D001A29E7 /* OffsetModifier.swift in Sources */,
 				ED293AD22DAFBF0800984551 /* PaddingModifier.swift in Sources */,
 				ED293ABE2DAFBBB800984551 /* SwiftUIModifiersApp.swift in Sources */,
 			);
